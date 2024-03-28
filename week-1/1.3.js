@@ -17,3 +17,9 @@ function getslice(str){
     console.log(str.slice(0,9)); // output of str from 0 to 8(not include 9)
 }
 getslice(str);
+
+// replace : replace string part with some other string 
+function strreplace(str){
+    console.log(str.replace("ram","Hanuman"))
+}
+strreplace(str);
