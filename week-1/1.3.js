@@ -11,3 +11,9 @@ function findindexof(str){
     console.log(str.indexOf("ram"));
 }
 findindexof(str);
+
+// slice : give only between of index
+function getslice(str){
+    console.log(str.slice(0,9)); // output of str from 0 to 8(not include 9)
+}
+getslice(str);
