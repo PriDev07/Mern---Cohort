@@ -23,3 +23,15 @@ function strreplace(str){
     console.log(str.replace("ram","Hanuman"))
 }
 strreplace(str);
+
+//split: split string to array index based on desired input
+function strsplit(str){
+    console.log(str.split(" "));
+}
+strsplit(str);
+
+// trim : trimmed out extra spaces from beginning and ending of string
+function strtrim(str){
+    console.log(str.trim());
+}
+strtrim(str);
