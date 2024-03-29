@@ -44,9 +44,26 @@
 // }
 // checkparint(a);
 
+
+//Array
 // forEach: to pass array values in any function one by one
-const initArray=[1,5,2];
-function freach(str){
-    console.log(str);
-}
-initArray.forEach(freach);
+// const initArray=[1,5,2];
+// function freach(str){
+//     console.log(str + "is checking for forEach");
+// }
+// initArray.forEach(freach);
+
+// // Classes: Gave out a structure for reusability just like blurprint of any code
+// class Animal {
+//     constructor(name, legcount, speaks){
+//         this.name = name;
+//         this.legcount = legcount;
+//         this.speaks = speaks;
+//     }
+// }
+// let dog = new Animal("Dog",2,"bhow bhow");
+// console.log(dog);
+
+// Date : to get time
+// const currrentDate= new Date();
+// console.log(currrentDate.getFullYear());// there are many functions like getDate,getMonth,getFullYear,,getHours,getMinutes,getSeconds,getMilliseconds,etc etc.
