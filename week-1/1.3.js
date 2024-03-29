@@ -43,3 +43,10 @@
 //     console.log(parseInt(a));
 // }
 // checkparint(a);
+
+// forEach: to pass array values in any function one by one
+const initArray=[1,5,2];
+function freach(str){
+    console.log(str);
+}
+initArray.forEach(freach);
