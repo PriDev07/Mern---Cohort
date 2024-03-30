@@ -12,3 +12,8 @@ function getSum(a,b,cb){// cb is a callback function
     return x+y;
 }
 console.log(getSum(6,10000,cube)); // Third argument is callback argument
+
+const fs = require("fs");
+fs.readFile("f.txt","utf-8",function(err,data){
+    console.log(data);
+});
