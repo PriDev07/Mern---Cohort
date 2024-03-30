@@ -67,3 +67,20 @@
 // Date : to get time
 // const currrentDate= new Date();
 // console.log(currrentDate.getFullYear());// there are many functions like getDate,getMonth,getFullYear,,getHours,getMinutes,getSeconds,getMilliseconds,etc etc.
+
+// // JSON : javascript object notation
+// const users = {
+//     name: "Priyanshu",
+//     age: 19,
+//     gender: "Male"
+// }
+// console.log(users["name","age","gender"]);
+
+// sync : those functions which works line by line like firstly first one will complete and then another one
+// asynxc : Just opposite of sync their delegate thier other task and work on the other task
+function hlwor(){
+    for(let i=0;i<10;i++){
+        setTimeout(console.log("Hello"),1000);
+    }
+}
+setTimeout(hlwor,1000);
