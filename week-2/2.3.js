@@ -6,4 +6,17 @@
 
 // 3. ls : list (to show list of all files and folder of your current working directory)
 
-//
+// 4. mkdir : make directory (to make folder inside working directory)
+// ex : mkdir check (this command will create a folder name check)
+
+// 5. touch : to make files(to make files inside working directory)
+// ex: touch check.cpp (this command will create a file name of check.cpp)
+
+// 6. cat : to show content of given file
+// ex : cat check.txt (this will show the content inside of check.txt)
+
+// 7. mv : to move file or folder 
+// ex: mv check.cpp checkfolder/    (this command will move check.cpp to inside checkfolder)
+
+// 8. cp : save as mv but it will copy
+
